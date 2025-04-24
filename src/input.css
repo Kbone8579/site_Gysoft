@@ -1,1 +1,53 @@
 @import "tailwindcss";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
+/* font */
+/* side-bar */
+.side-bar .logo h1 {
+    font-family: "Pretendard Variable", sans-serif;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 140%;
+    color: #F04E06;
+}
+
+
+/* side-bar */
+.side-bar {
+    width: 216px;
+    height: 100vh;
+    border-right: 1px solid #dadbdf;
+}
+.side-bar .logo {
+    width: 100%;
+    height: 75px;
+    background-image: url(image/side_bar/logo_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-bar .profile {
+    width: 100%;
+    height: 140px;
+    border: 1px solid blue;
+    padding: 15px 20px;
+    gap: 15px;
+}
+.side-bar .profile .name-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.side-bar .profile .name-box .text-box.s1 {
+    display: flex;
+    gap: 5px;
+}
+.side-bar .site-nav {
+    width: 100%;
+    height: calc(100% - 215px);
+    border: 1px solid rgb(255, 225, 0);
+}
